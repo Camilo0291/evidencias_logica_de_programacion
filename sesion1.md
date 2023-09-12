@@ -95,7 +95,7 @@ Los operadores lógicos más comunes son:
 
 - AND (&&): Devuelve verdadero si ambos operandos son verdaderos.
 
-- OR (||): Devuelve verdadero si al menos uno de los operandos es verdadero.
+- OR `(||)`: Devuelve verdadero si al menos uno de los operandos es verdadero.
 
 - NOT (!): Devuelve el valor opuesto del operando.
 
