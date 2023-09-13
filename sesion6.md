@@ -8,6 +8,9 @@
 
 # Actividad: Ejecicios Array - ArrayList
 ## 1. En parejas, probar, analizar y explicar el funcionamiento de los siguientes ejemplos de Array y ArrayList.
+
+#### Actividad realizada con el compañero Nelson Fonnegra
+
 ### Ejemplo Array
 ```Java
 import java.util.Arrays;
