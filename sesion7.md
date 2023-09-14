@@ -105,7 +105,7 @@ public class AppNotas {
 
 ## 2. Crear un ejemplo de Array y otro de ArrayList para visualizar sus diferencias.
 
-## Solución:
+
 
 
 
