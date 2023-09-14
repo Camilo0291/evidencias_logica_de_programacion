@@ -26,7 +26,7 @@ Resolver los siguientes ejercicios:
 
 ### while
 1.
-``` Java
+```java
 package com.mycompany.ejercicioo1;
 
 import java.util.Scanner;
