@@ -27,7 +27,7 @@
 # Solución:
 
 1.
-```Java
+```java
 package com.mycompany.ejercicioo1;
 
 import java.util.Scanner;
@@ -53,7 +53,7 @@ public class Ejercicioo1 {
 ```
 
 2.
-```Java
+```java
 package com.mycompany.ejercicioo1;
 
 import java.util.Scanner;
@@ -79,7 +79,7 @@ public class Ejercicioo1 {
 ```
 
 3.
-```Java
+```java
 package com.mycompany.ejercicioo3;
 
 import java.util.Scanner;
@@ -108,7 +108,7 @@ public class Ejercicioo3 {
 ```
 
 4.
-```Java
+```java
 package com.mycompany.ejercicioo4;
 
 import java.util.Scanner;
@@ -140,7 +140,7 @@ public class Ejercicioo4 {
 ```
 
 5.
-```Java
+```java
 package com.mycompany.ejercicioo5;
 
 public class Ejercicioo5 {
@@ -159,7 +159,7 @@ public class Ejercicioo5 {
 ```
 
 6.
-```Java
+```java
 package com.mycompany.ejercicioo6;
 
 public class Ejercicioo6 {
@@ -174,7 +174,7 @@ public class Ejercicioo6 {
 ```
 
 7.
-```Java
+```java
 package com.mycompany.ejercicioo7;
 
 import java.util.Scanner;
@@ -207,7 +207,7 @@ public class Ejercicioo7 {
 ```
 
 8.
-```Java
+```java
 package com.mycompany.ejercicioo8;
 
 import java.util.Scanner;

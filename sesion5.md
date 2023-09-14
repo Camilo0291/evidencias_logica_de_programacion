@@ -52,7 +52,7 @@ public class Ejercicioo1 {
 ```
 
 2.
-``` Java
+```java
 package com.mycompany.ejercicioo1;
 
 import java.util.Scanner;
@@ -83,7 +83,7 @@ public class Ejercicioo1 {
 
 ### do while
 1.
-``` Java
+```java
 package com.mycompany.ejercicioo2;
 
 import java.util.Scanner;
@@ -116,7 +116,7 @@ public class Ejercicioo2 {
 
 
 2.
-``` Java
+```java
 package com.mycompany.ejercicioo2;
 
 import java.util.Scanner;
@@ -150,7 +150,7 @@ public class Ejercicioo2 {
 
 ### for
 1.
-``` Java
+```java
 package com.mycompany.ejercicioo3;
 
 import java.util.Scanner;
@@ -172,7 +172,7 @@ public class Ejercicioo3 {
 ```
 
 2.
-``` Java
+```java
 package com.mycompany.ejercicioo3;
 
 import java.util.Scanner;
