@@ -146,6 +146,82 @@ public class Mavenproject3 {
 }
 ```
 
+### ArrayList
+
+```java
+package com.mycompany.mavenproject02;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Mavenproject02 {
+
+    public static void main(String[] args) {
+
+        ArrayList<String> tareas = new ArrayList<>();
+        Scanner scan = new Scanner(System.in);
+
+        while (true) {
+            System.out.println("1. Agregar tarea");
+            System.out.println("2. Mostrar tareas");
+            System.out.println("3. Completar tarea");
+            System.out.println("4. Salir");
+
+            int opcion = scan.nextInt();
+
+            if (opcion == 1) {
+                agregarTarea(tareas, scan);
+            } else if (opcion == 2) {
+                mostrarTareas(tareas);
+            } else if (opcion == 3) {
+                completarTarea(tareas, scan);
+            } else {
+                break;
+            }
+        }
+    }
+
+    public static void agregarTarea(ArrayList tareas, Scanner scan) {
+
+        System.out.println("Ingrese la descripción de la tarea:");
+        String descripcion = scan.nextLine();
+
+        tareas.add(descripcion);
+    }
+
+    public static void mostrarTareas(ArrayList tareas) {
+
+        if (tareas.isEmpty()) {
+            System.out.println("No hay tareas en la lista.");
+        } else {
+            for (int i = 0; i < tareas.size(); i++) {
+                System.out.println((i + 1) + ". " + tareas.get(i));
+            }
+        }
+    }
+
+    public static void completarTarea(ArrayList tareas, Scanner scan) {
+
+        mostrarTareas(tareas);
+
+        if (tareas.isEmpty()) {
+            return;
+        }
+
+        System.out.println("Ingrese el número de la tarea que desea completar:");
+        int numeroTarea = scan.nextInt();
+
+        if (numeroTarea > 0 && numeroTarea <= tareas.size()) {
+            tareas.remove(numeroTarea - 1);
+            System.out.println("Tarea completada exitosamente.");
+        } else {
+            System.out.println("Número de tarea inválido.");
+        }
+    }
+
+}
+```
+
 
 
 
