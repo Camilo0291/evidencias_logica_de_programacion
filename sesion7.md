@@ -106,6 +106,46 @@ public class AppNotas {
 ## 2. Crear un ejemplo de Array y otro de ArrayList para visualizar sus diferencias.
 
 
+### Array
+
+```java
+package com.mycompany.mavenproject3;
+
+import java.util.Arrays;
+
+public class Mavenproject3 {
+
+    public static void main(String[] args) {
+
+        // Crear un array de palabras
+        String[] palabras = {"manzana", "banana", "pera", "maracuya" "naranja", "kiwi"};
+
+        // Imprimir el array original
+        System.out.println("Array original: " + Arrays.toString(palabras));
+
+        // Concatenar todas las palabras en una sola cadena
+        String concatenacion = "";
+        for (int i = 0; i < palabras.length; i++) {
+            concatenacion += palabras[i];
+        }
+        System.out.println("Concatenación de palabras: " + concatenacion);
+
+        // Encontrar la palabra más larga en el array
+        String palabraMasLarga = palabras[0];
+        for (int i = 1; i < palabras.length; i++) {
+            if (palabras[i].length() > palabraMasLarga.length()) {
+                palabraMasLarga = palabras[i];
+            }
+        }
+        System.out.println("La palabra más larga es: " + palabraMasLarga);
+
+        // Ordenar el array en orden alfabético
+        Arrays.sort(palabras);
+        System.out.println("Array ordenado: " + Arrays.toString(palabras));
+    }
+}
+```
+
 
 
 
