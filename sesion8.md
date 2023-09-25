@@ -41,121 +41,27 @@ public class Numeromayor {
 }
 ```
 
-2.
+
+
 ```java
-package com.mycompany.cadenavocales;
+package com.mycompany.numeromayor;
 
-public class Cadenavocales {
+public class Numeromayor {
 
-    public static int contarVocales(String texto) {
-        int contador = 0;
-
-        texto = texto.toLowerCase();
-
-        for (int i = 0; i < texto.length(); i++) {
-            char letra = texto.charAt(i);
-
-            if (letra == 'a' || letra == 'e' || letra == 'i' || letra == 'o' || letra == 'u') {
-                contador++;
-            }
+    public static void main(String[] args) {
+        int num1 = 8;
+        int num2 = 5;
+        
+        int mayor = obtenerMayor(num1, num2);
+        
+        System.out.println("El mayor número es: " + mayor);
+    }
+    public static int obtenerMayor(int num1, int num2) {
+        if (num1 > num2) {
+            return num1;
+        } else {
+            return num2;
         }
-
-        return contador;
-    }
-
-    public static void main(String[] args) {
-        String texto = "Hola mundo";
-        int numeroVocales = contarVocales(texto);
-
-        System.out.println("Número de vocales: " + numeroVocales);
     }
 }
 ```
-
-3.
-```java
-package com.mycompany.cadenaordenalfabetico;
-
-public class Cadenaordenalfabetico {
-
-    public static String convertirMayusculasMinisculas(String cadena) {
-        StringBuilder nuevaCadena = new StringBuilder();
-
-        for (int i = 0; i < cadena.length(); i++) {
-            char caracter = cadena.charAt(i);
-
-            if (Character.isUpperCase(caracter)) {
-
-                nuevaCadena.append(Character.toLowerCase(caracter));
-            } else if (Character.isLowerCase(caracter)) {
-
-                nuevaCadena.append(Character.toUpperCase(caracter));
-            } else {
-                nuevaCadena.append(caracter);
-            }
-        }
-
-        return nuevaCadena.toString();
-    }
-
-    public static void main(String[] args) {
-        String cadena = "Hola Mundo!";
-        String nuevaCadena = convertirMayusculasMinisculas(cadena);
-        System.out.println("Cadena original: " + cadena);
-        System.out.println("Cadena convertida: " + nuevaCadena);
-    }
-}
-```
-
-4.
-```java
-package com.mycompany.numeropalabras;
-
-public class Numeropalabras {
-
-    public static int contarPalabras(String texto) {
-        if (texto == null || texto.isEmpty()) {
-            return 0;
-        }
-        String[] palabras = texto.split("\s+");
-        return palabras.length;
-    }
-
-    public static void main(String[] args) {
-        String texto = "Esto es una cadena de texto.";
-        int numeroPalabras = contarPalabras(texto);
-        System.out.println("Numero de palabras: " + numeroPalabras);
-    }
-}
-```
-
-5.
-```java
-package com.mycompany.cadenapalabras;
-
-import java.util.Arrays;
-
-public class Cadenapalabras {
-
-    public static void main(String[] args) {
-        String texto = "Hola mundo, este es un ejemplo";
-        String resultado = ordenarPalabras(texto);
-        System.out.println(resultado);
-    }
-
-    public static String ordenarPalabras(String texto) {
-
-        String[] palabras = texto.split(" ");
-
-        Arrays.sort(palabras);
-
-        String resultado = String.join(" ", palabras);
-
-        return resultado;
-
-    }
-}
-```
-
-
-
