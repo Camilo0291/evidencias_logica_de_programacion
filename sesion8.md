@@ -17,7 +17,29 @@ Implementar los siguientes métodos:
 
 # Solución:
 
+1. 
+```java
+package com.mycompany.numeromayor;
 
+public class Numeromayor {
+
+    public static void main(String[] args) {
+        int num1 = 8;
+        int num2 = 5;
+        
+        int mayor = obtenerMayor(num1, num2);
+        
+        System.out.println("El mayor número es: " + mayor);
+    }
+    public static int obtenerMayor(int num1, int num2) {
+        if (num1 > num2) {
+            return num1;
+        } else {
+            return num2;
+        }
+    }
+}
+```
 
 2.
 ```java
