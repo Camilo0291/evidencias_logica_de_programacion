@@ -15,7 +15,6 @@
 
 # Solución:
 
-1.
 ```java
 package com.mycompany.actividad11;
 
@@ -53,7 +52,7 @@ public class Actividad11 {
 }
 ```
 
-2. 
+
 ```java
 package com.mycompany.actividad11;
 
