@@ -54,7 +54,6 @@ public class Actividad11 {
 ```
 
 2. 
-
 ```java
 package com.mycompany.actividad11;
 
